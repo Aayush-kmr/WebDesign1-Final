@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work | Aayush Kumar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="name" href="index.html">Aayush Kumar</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <span class="label">Work</span>
+      <h1>Selected projects.</h1>
+      <p>A focused set of projects showing how I approach autonomy, sensing, visualization, and interactive systems.</p>
+    </section>
+    <article class="case-study" id="inara">
+      <img src="assets/inara.webp" alt="Technical illustration of the INARA autonomous navigation robot">
+      <section>
+        <span class="label">01 · Autonomous systems</span>
+        <h2>INARA</h2>
+        <p>INARA, or Intelligent Navigation &amp; Autonomous Response Agent, explores low-cost indoor autonomy. The work starts in a digital twin, compares learned navigation against a classical planner, and later transfers the system to a small rover.</p>
+        <p>I lead the system architecture, ROS 2 workflow, reinforcement-learning experiments, safety fallback logic, hardware planning, and evaluation strategy. The project received a $5,000 Bearcat AI Grant through UC XR Labs.</p>
+        <dl class="details">
+          <dt>Problem</dt><dd>Safe, adaptable indoor robot navigation</dd>
+          <dt>Tools</dt><dd>ROS 2, Gazebo, Nav2, PPO/SAC, LiDAR</dd>
+          <dt>Role</dt><dd>System design, research, and integration</dd>
+          <dt>Status</dt><dd>Active research and prototype development</dd>
+        </dl>
+      </section>
+    </article>
+    <article class="case-study" id="digital-twin">
+      <img src="assets/digital-twin.webp" alt="Technical illustration of the UC Digital Futures active digital twin project">
+      <section>
+        <span class="label">02 · Digital twin</span>
+        <h2>UC Digital Futures Active Digital Twin</h2>
+        <p>At XR Labs, I worked on a live digital twin of UC's Digital Futures building. The aim was a spatial environment that connects BIM geometry, sensor data, lighting controls, and immersive interfaces.</p>
+        <p>I contributed to data workflows, visualization, and XR interaction, including live lighting values, two-way control concepts, Omniverse scenes, and experiments with HoloLens and browser streaming.</p>
+        <dl class="details">
+          <dt>Problem</dt><dd>Make building data spatial and interactive</dd>
+          <dt>Tools</dt><dd>Omniverse, Unreal, BIM, WebSockets, XR</dd>
+          <dt>Role</dt><dd>XR research fellow and technical prototyper</dd>
+          <dt>Focus</dt><dd>Real-time visualization and interaction</dd>
+        </dl>
+      </section>
+    </article>
+    <article class="case-study" id="tracking">
+      <img src="assets/tracking.png" alt="Technical illustration of the human tracking and spatial analytics system">
+      <section>
+        <span class="label">03 · Computer vision</span>
+        <h2>Human Tracking &amp; Spatial Analytics</h2>
+        <p>This prototype detects people in a camera feed and remaps each detection into a top-down plan using a calibrated homography. It maintains track IDs, logs coordinates, counts occupants, and can create heatmap data.</p>
+        <p>I built it around a FastAPI backend, OpenCV processing, YOLO-based detection, and a real-time browser interface.</p>
+        <dl class="details">
+          <dt>Problem</dt><dd>Turn camera detections into spatial data</dd>
+          <dt>Tools</dt><dd>Python, OpenCV, YOLO, FastAPI, WebSocket</dd>
+          <dt>Role</dt><dd>Full prototype development</dd>
+          <dt>Output</dt><dd>Positions, IDs, counts, and CSV logs</dd>
+        </dl>
+      </section>
+    </article>
+    <article class="case-study" id="vr-training">
+      <img src="assets/vr-training.webp" alt="Illustration of a virtual reality decision training system">
+      <section>
+        <span class="label">04 · Immersive training</span>
+        <h2>VR Decision Training Simulation</h2>
+        <p>I helped develop an interactive VR training experience built around branching decisions. The scenario changes based on the choice a user makes inside the headset.</p>
+        <p>My work focused on Unreal Engine interaction flow, scoring logic, level transitions, dialogue timing, and making the experience understandable in VR.</p>
+        <dl class="details">
+          <dt>Problem</dt><dd>Practice high-stakes decisions safely</dd>
+          <dt>Tools</dt><dd>Unreal Engine 5, Blueprints, Meta Quest</dd>
+          <dt>Role</dt><dd>Interaction logic and implementation</dd>
+          <dt>Format</dt><dd>Branching immersive simulation</dd>
+        </dl>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <span>© 2026 Aayush Kumar</span>
+    <span><a href="mailto:kumar3ar@mail.uc.edu">Email</a> · <a href="https://www.linkedin.com/in/aayushkumars">LinkedIn</a></span>
+  </footer>
+</body>
+</html>

@@ -1,72 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aayush Kumar | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aayush Kumar | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-    <header>
-        <h1>Aayush Kumar</h1>
-
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <main>
-
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Aerospace Engineering student interested in robotics,
-                autonomous systems, AI, XR, and digital twins.
-            </p>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-
-            <article>
-                <h3>INARA</h3>
-                <p>Autonomous indoor navigation robot using AI and ROS 2.</p>
-            </article>
-
-            <article>
-                <h3>Digital Twin</h3>
-                <p>Interactive XR digital twin with real-time sensor data.</p>
-            </article>
-        </section>
-
-        <section id="experience">
-            <h2>Experience</h2>
-
-            <h3>XR Lab</h3>
-            <p>Undergraduate Research Fellow</p>
-
-            <h3>Battle Motors</h3>
-            <p>Engineering Intern</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-
-            <a href="mailto:your@email.com">Email</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Aayush Kumar</p>
-    </footer>
-
+  <header>
+    <a class="name" href="index.html">Aayush Kumar</a>
+    <nav aria-label="Primary navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="home-intro">
+      <section>
+        <span class="label">Aerospace engineering · Robotics · XR</span>
+        <h1>I build systems for the physical world.</h1>
+        <p>I am an Aerospace Engineering honors student at the University of Cincinnati with a Computer Science minor. I work across autonomous systems, computer vision, digital twins, and immersive technology.</p>
+        <a class="button" href="work.html">See my work</a>
+        <a class="button" href="contact.html">Contact me</a>
+      </section>
+      <figure class="focus-image">
+        <img src="assets/inara.webp" alt="INARA autonomous navigation robot">
+      </figure>
+    </section>
+    <section class="selected-work">
+      <span class="label">Selected work</span>
+      <h2>A few projects in progress.</h2>
+      <section class="project-list">
+        <article>
+          <img src="assets/inara.webp" alt="INARA autonomous navigation project">
+          <span class="label">Autonomous systems</span>
+          <h3>INARA</h3>
+          <p>A low-cost indoor robot platform that pairs learned navigation with a safety fallback.</p>
+          <a href="work.html#inara">Read more</a>
+        </article>
+        <article>
+          <img src="assets/digital-twin.webp" alt="Technical illustration of a connected active digital twin">
+          <span class="label">Digital twin</span>
+          <h3>Digital Futures</h3>
+          <p>A live, spatial model connecting building information, data, and XR interfaces.</p>
+          <a href="work.html#digital-twin">Read more</a>
+        </article>
+        <article>
+          <img src="assets/tracking.png" alt="Technical illustration of computer vision person tracking">
+          <span class="label">Computer vision</span>
+          <h3>Spatial Analytics</h3>
+          <p>A prototype that turns person detections into useful top-down movement data.</p>
+          <a href="work.html#tracking">Read more</a>
+        </article>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <span>© 2026 Aayush Kumar</span>
+    <span><a href="mailto:kumar3ar@mail.uc.edu">Email</a> · <a href="https://www.linkedin.com/in/aayushkumars">LinkedIn</a></span>
+  </footer>
 </body>
 </html>
