@@ -276,6 +276,11 @@ footer {
 
   nav {
     gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-size: clamp(2.7rem, 8vw, 6.8rem);
   }
 
   .home-intro, .project-list, .case-study, .two-column {

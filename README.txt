@@ -7,7 +7,8 @@ work.html    Project details
 about.html   Background and experience
 contact.html Contact details
 styles.css   Styles shared by every page
-assets       Local SVG illustrations
+reset.css    Browser style reset shared by every page
+assets       Local PNG and WebP images
 
 
 HOW THE HTML WORKS
